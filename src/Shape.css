@@ -1,0 +1,19 @@
+.shape {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  width: fit-content;
+}
+
+.square {
+  width: 64px;
+  height: 64px;
+}
+
+.square-visible {
+  border: solid 1px black;
+}
+
+.square-active {
+  background-color: green;
+}
