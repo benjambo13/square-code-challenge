@@ -8,12 +8,19 @@
 .square {
   width: 64px;
   height: 64px;
+  transition: background-color 0.75s;
 }
 
 .square-visible {
   border: solid 1px black;
+  cursor: pointer;
 }
 
 .square-active {
   background-color: green;
+  cursor: initial;
+}
+
+.square-unloading {
+  cursor: initial;
 }
